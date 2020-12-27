@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,34 +14,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="668a365a-fab7-4d32-bba1-2b11c7cc7785" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Counter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AppJoin.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AppSplit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Counter/Counter.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Settings/Settings.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Settings/Settings.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Counter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter/Counter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lCHkvP91hJCGB90OMEA35cUa46" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,10 +53,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
     <property name="ts.external.directory.path" value="D:\incubator\counter\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\incubator\counter\src\components" />
+      <recent name="D:\incubator\counter\src\components\Settings" />
+      <recent name="D:\incubator\counter\src\components\Input" />
+      <recent name="D:\incubator\counter\src\components\Counter" />
+      <recent name="D:\incubator\counter\src\components\Buttons" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -78,7 +95,20 @@
       <updated>1607094300355</updated>
       <workItem from="1607094301559" duration="744000" />
       <workItem from="1607095160795" duration="10313000" />
+      <workItem from="1608216476838" duration="886000" />
+      <workItem from="1608217374547" duration="327000" />
+      <workItem from="1608217715890" duration="12682000" />
+      <workItem from="1608560058779" duration="2609000" />
+      <workItem from="1609047939224" duration="10072000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial">
+      <created>1608216545044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608216545044</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +124,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
   </component>
   <component name="WindowStateProjectService">
     <state x="622" y="262" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607095208500">
@@ -104,25 +139,49 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="584" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1707.920@0.0.1707.920" timestamp="1607095413681" />
-    <state width="1685" height="242" key="GridCell.Tab.0.bottom" timestamp="1607110077216">
+    <state x="615" y="236" width="452" height="496" key="#com.intellij.tools.ToolEditorDialog" timestamp="1608217696112">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1685" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1607110077216" />
-    <state width="1685" height="242" key="GridCell.Tab.0.center" timestamp="1607110077216">
+    <state x="615" y="236" width="452" height="496" key="#com.intellij.tools.ToolEditorDialog/0.0.1707.920@0.0.1707.920" timestamp="1608217696112" />
+    <state x="634" y="202" key="FileChooserDialogImpl" timestamp="1608216826654">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1685" height="242" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1607110077216" />
-    <state width="1685" height="242" key="GridCell.Tab.0.left" timestamp="1607110077216">
+    <state x="634" y="202" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1608216826654" />
+    <state x="733" y="358" key="Github.ShareDialog" timestamp="1608216840567">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1685" height="242" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1607110077216" />
-    <state width="1685" height="242" key="GridCell.Tab.0.right" timestamp="1607110077216">
+    <state x="733" y="358" key="Github.ShareDialog/0.0.1707.920@0.0.1707.920" timestamp="1608216840567" />
+    <state width="1685" height="115" key="GridCell.Tab.0.bottom" timestamp="1609054504327">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1685" height="242" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1607110077216" />
-    <state x="638" y="103" key="SettingsEditor" timestamp="1607105993862">
+    <state width="1685" height="115" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1609054504327" />
+    <state width="1685" height="115" key="GridCell.Tab.0.center" timestamp="1609054504327">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="638" y="103" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1607105993862" />
+    <state width="1685" height="115" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1609054504327" />
+    <state width="1685" height="115" key="GridCell.Tab.0.left" timestamp="1609054504327">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="115" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1609054504327" />
+    <state width="1685" height="115" key="GridCell.Tab.0.right" timestamp="1609054504327">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="115" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1609054504327" />
+    <state x="139" y="88" key="SettingsEditor" timestamp="1608217697593">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="139" y="88" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1608217697593" />
+    <state x="446" y="193" key="Vcs.Push.Dialog.v2" timestamp="1608216719974">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="446" y="193" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1608216719974" />
+    <state x="671" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608560380788">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="671" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.920@0.0.1707.920" timestamp="1608560380788" />
+    <state x="265" y="200" width="672" height="678" key="search.everywhere.popup" timestamp="1608217163222">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="265" y="200" width="672" height="678" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1608217163222" />
   </component>
 </project>

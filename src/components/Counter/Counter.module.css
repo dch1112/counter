@@ -1,0 +1,12 @@
+.counter {
+  font-size: 50px;
+
+  color: white;
+  background: burlywood;
+  padding: 20px;
+
+}
+
+.maxValue {
+  color: red;
+}

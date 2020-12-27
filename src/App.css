@@ -1,47 +1,56 @@
 .app {
-  margin: auto;
-  padding: 20px;
-  width: min-content;
   display: flex;
   flex-direction: column;
+
+  margin: auto;
+}
+
+.splitJoinButton {
+  padding: 10px;
+  margin: auto;
+  border: 2px solid chocolate;
+  border-radius: 5px;
+  background: burlywood;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+
+  width: min-content;
+  padding: 25px;
+  margin: 10px auto;
+
   text-align: center;
-  font-size: 50px;
+
+  color: lightyellow;
+  border: 2px solid chocolate;
+  border-radius: 5px;
+}
+
+.content{
+  display: grid;
+  height: 100px;
   border: 2px solid chocolate;
   border-radius: 5px;
 }
 
 .buttons {
-  margin: auto;
-  text-align: center;
-  width: 150px;
-}
+  border: 2px solid chocolate;
+  border-radius: 5px;
 
-.maxValue {
-  color: red;
-}
-
-.buttons,
-.counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 20px;
-  margin: 10px;
-  border: 2px solid chocolate;
-  border-radius: 5px;
-}
+  min-width: 200px;
 
-.counter {
-  background-color: burlywood;
-  color: white;
-}
 
-.button {
-  background-color: burlywood;
-  border: 2px solid chocolate;
-  border-radius: 5px;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-.buttonDisabled {
-  opacity: 0.5;
-  cursor: auto;
+  text-align: center;
+  margin-top: 25px;
 }

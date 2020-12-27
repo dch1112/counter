@@ -1,4 +1,5 @@
 import React from 'react'
+import s from './Counter.module.css'
 
 type CounterPropsType = {
   value: number
@@ -7,7 +8,10 @@ type CounterPropsType = {
 
 export const Counter = (props: CounterPropsType) => {
   return (
-    <div className={props.value >= props.maxValue ? 'maxValue' : ''}>
+    <div
+      className={`${s.counter} ${props.value >= props.maxValue ? s.maxValue : ''}`}
+    >
       {props.value}
-    </div>)
+    </div>
+  )
 }
