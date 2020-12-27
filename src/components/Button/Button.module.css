@@ -1,0 +1,14 @@
+
+.btn {
+  font-size: 30px;
+  cursor: pointer;
+  border: 2px solid chocolate;
+  border-radius: 5px;
+  background-color: burlywood;
+  margin: 5px;
+}
+
+.btnDisabled {
+  cursor: auto;
+  opacity: .5;
+}
